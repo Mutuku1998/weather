@@ -3,7 +3,12 @@ body {
   font-family: "Roboto", Arial, sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #d5d4d4;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(156,186,230,1) 91%, rgba(148,187,233,1) 100%),url(../src/img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
 }
 
 code {

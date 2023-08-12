@@ -1,0 +1,27 @@
+.footer{
+display: flex;
+margin-bottom: 0%;
+}
+.copyright{
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+.socialmedia{
+    margin-left: 7rem;
+    font-size: 17px;
+    font-weight: 600;
+}
+.socialmedia i{
+    color: blue;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1rem;
+
+
+}
+@media screen and(max-width:768px) {
+    .copyright{
+        transform: scale(0.7);
+    }
+}
